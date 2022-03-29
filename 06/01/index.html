@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="forma">
+        <h1>Анкета відвідувача ресторану</h1>
+
+        <form action="#">
+            <fieldset class="fieldset">
+                <legend>Контакти</legend>
+
+                <label for="name">Ім'я <input type="text" id="name"></label>
+                <label for="tel">Телефон <input type="tel" id="tel"></label>
+                <label for="email">Emeil <input type="emeil" id="emeil"></label>
+                <label for="date">Дата відвідування <input type="date" id="data"></label>
+            </fieldset>
+            <fieldset class="fieldset">
+                <legend>Персональна інформація</legend>
+
+                <label for="age" name="lable">Вік <input type="number" min = "1" max ="120" step="1"></label>
+                <label for="fev">Улюблена кухня
+                    <select name="fev" id="fev">
+                        <option value="">Українська</option>
+                        <option value="">Грузинська</option>
+                        <option value="">Китайська</option>
+                        <option value="">Східна</option>
+                    </select>
+                </label>
+                <label for="">Які страви ви хотіли би бачити у нашому меню? <textarea name="menu" cols="30" rows="10"></textarea></label>
+            </fieldset>
+            <fieldset class="fieldsetRadio">
+                <legend>Оцінка ресторану</legend>
+
+                <label class="radio">
+                    <p>Як ви дізналися про наш ресторан?</p>
+                    <label for="one"><input type="radio" name="radioCom" value="one">Поруч з будинком/роботою</label>
+                    <label for="two"><input type="radio" name="radioCom" value="two">Руклама</label>
+                    <label for="tree"><input type="radio" name="radioCom" value="tree">Порадили знайомі</label>
+                    <label for="fore"><input type="radio" name="radioCom" value="five">Пошук в мережі Інтернет</label>
+                    <label for="five"><input type="radio" name="radioCom" value ="six">Інше</label>
+                </label>
+                <label class="radio">
+                    <p>Чи будете ви рекомендувати наш ресторан знайомим?</p>
+
+                    <label for="Yes"><input type="radio" name="Yn" id="Yes">Так</label>
+                    <label for="No"><input type="radio" name="Yn" id="No">Ні</label>
+                </label>
+            </fieldset>
+
+            <button>Відправити</button>
+        </form>
+    </div>
+</body>
+</html>

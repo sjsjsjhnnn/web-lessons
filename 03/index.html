@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/03.css">
+</head>
+<body>
+    <div>
+        <h1>Основні властивості css для роботи з текстом</h1>
+
+        <h2>Властивості font-size</h2>
+    
+        <p>Властивості <span>font-size</span> змінює розмір шрифта</p>
+        <p>Розмір шрифту задається за допомогою значеня та одиниць виміру ( <span>em</span> , <span>px</span> , <span>pt</span> , <span>%</span> )</p>
+        
+        <h3>Синтаксис:</h3>
+    
+        <h4>css</h4>
+    
+        <div class="div">
+            <code><pre>p{
+            font-size: 20px;
+       }</pre></code></div>
+    
+        <h4>html</h4>
+    
+        <div class="div">
+            <code>&lt;p&gt;Hello world&lt;/p&gt;</code>
+        </div>
+    
+        <h3>Результат:</h3>
+    
+        <div class="div">
+            <samp>Hello World</samp>
+        </div>
+    </div>
+    
+    <div>
+        <h2>Властивості font-weight</h2>
+
+        <p>Властивість <span>font-weight</span> встановлює товщину шрифта</p>
+        <p>Властивість font-weight може отримувати 15 значень:</p>
+        <p><span>initial</span>   Встановлює властивість у значення без задання,<br>
+        <span>inherit</span> Вказує на спадковість властивості від свого батьківського елемента.<br>
+        <span>100</span> Найбільш тонкий.<br>
+        <span>200</span> Супер тонкий текст.<br>
+        <span>300</span> Тонкий<br>
+        <span>400</span> Нормальний.<br>
+        <span>500</span> Середній.<br>
+        <span>600</span> Напівжирний.<br>
+        <span>700</span> Жирний.<br>
+        <span>800</span> Супер жирний.<br>
+        <span>900</span> Найбільш жирний.<br>
+        <span>normal</span> Нормальний шрифт. Значення без задання<br>
+        <span>bold</span> Жирні символи.<br>
+        <span>bolder</span> Символи товстіші за батьківські.<br>
+        <span>lighter</span> Символи тонкіші за батьківські.</p>
+
+        <h3>Синтаксис:</h3>
+    
+        <h4>css</h4>
+    
+        <div class="div">
+            <code><pre>p{
+            font-weight: bold;
+       }</pre></code></div>
+    
+        <h4>html</h4>
+    
+        <div class="div">
+            <code>&lt;p&gt;Hello world&lt;/p&gt;</code>
+        </div>
+    
+        <h3>Результат:</h3>
+    
+        <div class="div">
+            <samp class="fontWeight">Hello World</samp>
+        </div>
+    </div>
+
+    <div>
+        <h2>Властивості font-style</h2>
+
+        <p>CSS властивість <span>font-style</span> визначає стиль шрифту: курсив або похилий.</p>
+        <p>Властивість font-style може отримувати 5 значень: <br>
+            <span>normal</span> Звичайний стиль шрифту. Без задання.<br>
+            <span>italic</span> Курсивний шрифт. Імітує рукописний текст.<br>
+            <span>oblique</span> Похилий шрифт. Літери нахиляються вправо.<br>
+            <span>initial</span> Встановлює цю властивість в значення без задання<br>
+            <span>inherit</span> Успадкує значення властивості від свого батьківського елемента</p>
+
+            <h3>Синтаксис:</h3>
+    
+            <h4>css</h4>
+        
+            <div class="div">
+                <code><pre>p{
+                font-style: italic;
+        }</pre></code></div>
+        
+            <h4>html</h4>
+        
+            <div class="div">
+                <code>&lt;p&gt;Hello world&lt;/p&gt;</code>
+            </div>
+        
+            <h3>Результат:</h3>
+        
+            <div class="div">
+                <samp class="fontStyle">Hello World</samp>
+            </div>
+    </div>
+
+    <div>
+        <h2>Властивість font-family</h2>
+
+        <p>Властивість <span>font-family</span> задає шрифт для тексту.</p>
+        <p>Властивість font-family може отримувати 3 значення: <br>
+            <span>family-name generic-family</span>  Ім'я сімейства шрифту або спільне сімейство.<br>
+            <span>initial</span> Встановлює властивість у значення без задання<br>
+            <span>inherit</span> Вказує на спадковість властивості від свого батьківського елемента</p>
+
+        <div class="div">
+            <code><pre>p{
+                font-family: Arial, Helvetica, sans-serif;
+            }</pre></code></div>
+        
+        <h4>html</h4>
+        
+        <div class="div">
+            <code>&lt;p&gt;Hello world&lt;/p&gt;</code>
+        </div>
+        
+        <h3>Результат:</h3>
+        
+        <div class="div">
+            <samp class="fontFamily">Hello World</samp>
+        </div>
+    </div>
+
+    <div>
+        <h2>Властивість color</h2>
+
+        <p>Властивість <span>color</span> задає колір тексту та його оздоблення, котре задане за допомогою властивості text-decoration.</p>
+        <p>Властивість color може отримувати 6 значень: <br>
+        <span>color</span>  Колір тексту. <br>
+        <span>initial</span> Встановлює властивість у значення без задання <br>
+        <span>inherit</span> Вказує на спадковість властивості від свого батьківського елемента. <br>
+        <span>currentColor</span> Теж саме, що inherit. <br>
+        <span>transparent</span> Робить текст прозорим (невидимим). <br>
+        <span>unset</span> Комбінація ключових слів initial і inherit. Встановлює значення властивості як inherit, якщо властивість успадковується від свого батька, в іншому випадку значення встановлюється як initial.</p>
+
+        <div class="div">
+        <code><pre>p{
+            color: green;
+        }</pre></code></div>
+        
+        <h4>html</h4>
+        
+        <div class="div">
+            <code>&lt;p&gt;Hello world&lt;/p&gt;</code>
+        </div>
+        
+        <h3>Результат:</h3>
+        
+        <div class="div">
+            <samp class="fontColor">Hello World</samp>
+        </div>
+    </div>
+
+    <div>
+        <h2>Властивість text-transform</h2>
+
+        <p>Властивість <span>text-transform </span> визначає, якими літерами буде відображено текст - ВЕЛИКИМИ, малими або Кожне Слово З Великої Літери.</p>
+        <p>Властивість text-transform може отримувати 6 значень: <br>
+        <span>none</span>  Регіст символів не буде змінено. Без задання.<br>
+        <span>capitalize</span> Перший символ кожного слова в реченні буде заголовним. Примітка: Іншу символи свій регіст не змінять.<br>
+        <span>uppercase</span> Всі символи тексту стають великими (верхній регістр).<br>
+        <span>lowercase</span> Всі символи тексту стають малими (нижній регістр)<br>
+        <span>initial</span> Встановлює властивість у значення без задання<br>
+        <span>inherit</span> Вказує на спадковість властивості від свого батьківського елемента.</p>
+
+        <div class="div">
+        <code><pre>p{
+            color: uppercase;
+        }</pre></code></div>
+        
+        <h4>html</h4>
+        
+        <div class="div">
+            <code>&lt;p&gt;Hello world&lt;/p&gt;</code>
+        </div>
+        
+        <h3>Результат:</h3>
+        
+        <div class="div">
+            <samp class="fontTransform">Hello World</samp>
+        </div>
+    </div>
+
+    <div>
+        <h2>Властивість text-decoration</h2>
+
+        <p>Властивість <span>text-decoration </span> є універсальною властивістю для наступних властивостей: <span>text-decoration-line</span>, <span>text-decoration-color</span>, <span>text-decoration-style</span>.</p>
+        <p>Властивість text-decoration може отримувати 13 значень: <br>
+        <span>none</span> Звичайний текст. Без задання.<br>
+        <span>underline</span> Підкреслений текст.<br>
+        <span>overline</span> Лінія над текстом.<br>
+        <span>line-through</span> Закреслений текст.<br>
+        <span>blink</span> Блимання тексту(не підтримується всіма браузерами)<br>
+        <span>solid</span> Суцільна лінія<br>
+        <span>wavy</span> Лінія у формі хвилі.<br>
+        <span>dotted</span> Лінія крапками.<br>
+        <span>dashed</span> Лінія рисочками.<br>
+        <span>double</span> Подвійна лінія.<br>
+        <span>&lt;color&gt;</span> Значення кольору у будь-якому форматі.<br>
+        <span>initial</span> Встановлює властивість у значення без задання<br>
+        <span>inherit</span> Вказує на спадковість властивості від свого батьківського елемента.</p>
+
+        <div class="div">
+            <code><pre>p{
+                text-decoration: overline;
+        }</pre></code></div>
+                
+        <h4>html</h4>
+                
+        <div class="div">
+            <code>&lt;p&gt;Hello world&lt;/p&gt;</code>
+        </div>
+                
+        <h3>Результат:</h3>
+                
+        <div class="div">
+            <samp class="fontDecoration">Hello World</samp>
+        </div>
+    </div>
+</body>
+</html>

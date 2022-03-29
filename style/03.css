@@ -1,0 +1,65 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    color: #000;
+    font-size: 22px;
+    text-transform:uppercase;
+}
+h2{
+    color: #000;
+    font-size: 20px;
+    font-weight:bolder;
+}
+p{
+    color: #666;
+    font-size: 14px;
+}
+span{
+    color: #c7254e;
+    font-size: 14px;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+samp{
+    color: #666;
+    font-size: 25px;
+}
+h3{
+    color: #000;
+    font-weight: bolder;
+}
+h4{
+    color: #666;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight:600;
+}
+.div{
+    width: 80%;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+div{
+    padding-bottom: 50px;
+}
+.fontWeight{
+    font-weight: bold;
+}
+.fontStyle{
+    font-style: italic;
+}
+.fontFamily{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fontColor{
+    color: green;
+}
+.fontTransform{
+    text-transform:uppercase;
+}
+.fontDecoration{
+    text-decoration: overline;
+}

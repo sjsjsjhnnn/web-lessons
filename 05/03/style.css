@@ -1,0 +1,141 @@
+/*.mainBlock{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.block{
+    background: rosybrown;
+    border: 2px solid black;
+    width: 100px;
+    height: 20px;
+    margin-bottom: 10px;
+}*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mainBlock {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+.block {
+    flex: 0.08 240px;
+    height: max-content;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    align-content: flex-start;
+    padding-bottom:20px
+}
+.blocks{
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    padding: 20px 10px 0px 10px;
+}
+.blockOne{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.discount{
+    width: 45px;
+    height: 25px;
+    background:rgb(248,65,71);
+    border-radius: 20px;
+    text-align: center;
+}
+.discount2{
+    width: 45px;
+    height: 25px;
+}
+.discount p{
+    color: white;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.feed{
+    align-self: center;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+}
+.scales{
+    opacity: 0.4;
+}
+.pTree2{
+    font-size: 17px;
+    color: rgb(248,65,71);
+    font-weight: 600;
+    margin-top: 27px;
+}
+.blockTwo{
+    display: flex;
+    flex-direction: column;
+}
+.blockTwo p{
+    padding-top: 10px;
+}
+.pOne{
+    font-size: 13px;
+}
+
+.pTwo{
+    text-decoration: line-through;
+    font-size: 13px;
+    color: rgb(124, 124, 124);
+}
+.pTree{
+    font-size: 17px;
+    color: rgb(248,65,71);
+    font-weight: 600;
+}
+.pTree img,.pTree2 img{
+    width: 20px;
+    margin-left: 130px;
+}
+.pTree2{
+    font-size: 17px;
+    color: rgb(248,65,71);
+    font-weight: 600;
+    margin-top: 27px;
+}
+.text{
+    justify-self:flex-end;
+}
+.sms{
+    display: flex;
+}
+.sms p{
+    font-size: 10px;
+    color: rgb(81,127,178);
+}
+.sms img{
+    line-height: 10px;
+    margin-right: 5px;
+}
+.pFore{
+    color: rgb(39,161,72);
+    font-size: 12px;
+}
+.price{
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+}
+.price img{
+    height: 20px;
+    align-self: flex-end;
+    margin-bottom: 3px;
+    margin-right: 5%;
+}

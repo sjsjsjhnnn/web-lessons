@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+.mainBlock{
+    display: flex;
+    width: 50%;
+    height: max-content;
+    padding: 20px;
+}
+.socialBlocks{
+    width: 60px;
+    height: 60px;
+    background:rgb(97,138,210);
+    margin: auto;
+}
+.socialNetwork{
+    width: 20%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-right: 1px solid black;
+}
+.informBlock{
+    width:80%;
+    padding-left: 30px;
+    font-size: 15px;
+}
+.informBlock p, h1{
+    padding-bottom: 15px;
+}
+.imgOne,.imgTwo,.imgTree{
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}

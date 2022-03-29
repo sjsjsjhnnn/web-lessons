@@ -1,0 +1,19 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 275" width="216" height="275">
+	<title>D</title>
+	<defs>
+		<image  width="400" height="400" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQAQMAAAC6caSPAAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAAqSURBVHic7cExAQAAAMKg9U/tbwagAAAAAAAAAAAAAAAAAAAAAAAAAIA3T7AAATkWl3gAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.txt0 { font-size: 220px;fill: #ffffff;font-weight: 700;font-family: "Roboto-Bold", "Roboto" } 
+	</style>
+	<use id="Background" href="#img1" x="-92" y="-43" />
+	<text id="N" style="transform: matrix(1,0,0,1,-13,275)" >
+		<tspan x="0" y="0" class="txt0">N</tspan><tspan  y="0" class="txt0">
+</tspan>
+	</text>
+	<text id="D" style="transform: matrix(1,0,0,1,82,157)" >
+		<tspan x="0" y="0" class="txt0">D</tspan><tspan  y="0" class="txt0">
+</tspan>
+	</text>
+</svg>

@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+.form{
+    width: 500px;
+    min-height: 550px;
+    height:max-content;
+    background: rgb(35,48,59);
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(140,150,142);
+}
+.div{
+    display: flex;
+    justify-content: center;
+}
+.div div{
+    width: 70px;
+    height:max-content;
+    border: none;
+    background: rgb(67,80,89);
+    font-weight: 600;
+    color: rgb(140,150,142);
+    padding: 15px 80px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+h1{
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.totalForm{
+    display: flex;
+    justify-content: center;
+}
+form{
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    width: 110px;
+    border: 2px solid rgb(109, 122, 131);
+    background:none;
+    color: rgb(231, 231, 231);
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 100px 10px 5px;
+    margin-bottom: 35px;
+}
+.lable1{
+    width: 455px;
+    height:max-content;
+    display: flex;
+    justify-content: space-between;
+}
+.placeholder1{
+    position: absolute;
+    top: 215px;
+    left: 115px;
+}
+.placeholder2{
+    position: absolute;
+    top: 215px;
+    left: 350px;
+}
+.placeholder3{
+    position: absolute;
+    top: 290px;
+    left: 135px;
+}
+.placeholder4{
+    position: absolute;
+    top: 365px;
+    left: 150px;
+}
+.placeholder1,.placeholder2,.placeholder3,.placeholder4{
+    color:rgb(26,176,136);
+}
+#Firstname:focus   + .placeholder1, #LastName:focus   + .placeholder2, #EmailAddres:focus   + .placeholder3, #SetAPassword:focus   + .placeholder4{
+	display: none;
+}
+
+#EmailAddres, #SetAPassword{
+    width: 347px;
+}
+button{
+    background: rgb(26,176,136);
+    color: white;
+    border: none;
+    padding: 20px 160px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+button:hover{
+    background: rgb(20, 134, 104);
+}
+input::placeholder{
+    color: rgb(114, 114, 114);
+}
+.div div:hover{
+    background: rgb(26,176,136);
+    color: white;
+    border: none;
+}
