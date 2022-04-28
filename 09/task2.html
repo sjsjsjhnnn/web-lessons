@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let mas = [];
+        let evenNumbers = [];
+        let oddNumbers = [];
+        let count = 0;
+        let Sum = 0;
+        while(true){
+            let number = prompt("Введіть число");
+
+            if(number / 1 != number){
+                break;
+            }
+
+            if(number % 2 == 0){
+                evenNumbers.push(number);
+            }else{
+                oddNumbers.push(number);
+            }
+            mas.push(number);
+            count++;
+            Sum += number / 1;
+        }
+
+        mas.push(`     Сума: ${Sum}`);
+        mas.push(`     Кількість парних чисел: ${evenNumbers.length}`);
+        mas.push(`     Кількість непарних чисел: ${oddNumbers.length}`);
+        alert(mas.join(), ", ")
+
+    </script>
+</body>
+</html>

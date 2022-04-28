@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var mas = [];
+        var gmail;
+        var i = 1;
+        var tf = false;
+        while(true){
+            gmail = prompt(`Введіть електоронну пошту №${i}:`);
+
+            for(let i = 0; i < mas.length; i++){
+                if(mas[i] == gmail){
+                    alert("Така пошта вже існує");
+                    tf = true;
+                    break;
+                }
+            }
+            if(tf == true){
+                tf = false;
+                continue;
+            }
+
+            mas.push(gmail);
+
+            if(gmail == null){
+                break;
+            }
+        }
+        alert(mas.join(", "));
+    </script>
+</body>
+</html>

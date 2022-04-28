@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let mas = [
+            "Ліпше вмерти біжучи, ніж жити гниючи",
+            "Мужність не дається напрокат",
+            "Орлині крила маєм за плечима, самі ж кайданами прикуті до землі",
+            "Любов виникає з любові; коли хочу, щоб мене любили, я сам перший люблю",
+            "Світ ловив мене, та не спіймав",
+            "Тяжко, тяжко в світі жить І нікого не любить."
+        ];
+
+        let random = Math.floor(Math.random() * 6);
+        let count = 1;
+
+        for(let i = 0; i < mas[random].length; i++){
+            if(mas[random][i] == " "){
+                count++;
+            }
+        }
+        alert(`${mas[random]}:      кількість слів у реченні: ${count}`)
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function createTovar(name, price){
+            return {
+                name:name,
+                price: price,
+                info: showInfo
+            }
+        }
+        tovar_number_one = createTovar("Цукерки", "123.33грн")
+        tovar_number_two = createTovar("Велосипед", "2111.99грн")
+        tovar_number_tree = createTovar("Роликові ковзани", "321.22грн")
+        tovar_number_fore = createTovar("Торт", "230грн")
+        tovar_number_five = createTovar("Вишня", "100грн")
+
+        function showInfo(){
+            alert(`Назва товару: ${this.name}; Вартість: ${this.price}`)
+        }
+
+        tovar_number_one.info();
+        tovar_number_two.info();
+        tovar_number_tree.info();
+        tovar_number_fore.info();
+        tovar_number_five.info();
+
+    </script>
+</body>
+</html>
